@@ -1,15 +1,13 @@
-# Ambiente Virtual
-.venv/
-venv/
-__pycache__/
+# Dependências
+/back-end/node_modules
+/front-end/node_modules
 
-# Arquivos de IDE
-.vscode/
-.idea/
+# Arquivos de ambiente
+.env
+/back-end/.env
+/front-end/.env
 
-# Arquivos de sistema
-*.pyc
-.DS_Store
-
-# Jupyter Notebooks Cache
-.ipynb_checkpoints/
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
